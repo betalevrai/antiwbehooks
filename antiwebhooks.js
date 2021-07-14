@@ -195,4 +195,4 @@ client.on('webhookUpdate', async (channel) => {
     
 });
 
-client.login('ODQ4ODk2OTc3NDc4NDg0MDI5.YLTS6w.6lhCR2NcabQ8-McQecwhfW6jr_0')
+client.login(process.env.TOKEN);
